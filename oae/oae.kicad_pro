@@ -322,16 +322,20 @@
       ""
     ],
     [
-      "9397f066-146e-4896-a893-48ef11276451",
-      "Microcontroller"
-    ],
-    [
       "4e5c0499-4917-48e7-9f4d-c201cc63ee81",
       "Interface"
     ],
     [
       "d6a7f71a-4da6-4997-9a3d-af77c0308253",
       "Power"
+    ],
+    [
+      "eb102f03-2731-4f1a-bee7-0755c9304ce3",
+      "Bypass Capacitors for Microcontroller"
+    ],
+    [
+      "9397f066-146e-4896-a893-48ef11276451",
+      "Microcontroller"
     ],
     [
       "169c3de2-c7c8-4610-b91b-a9f8fbbda482",
