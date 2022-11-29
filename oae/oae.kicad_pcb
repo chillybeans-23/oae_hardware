@@ -6001,6 +6001,12 @@
   (gr_text "GND" (at 110.49 132.334) (layer "F.SilkS") (tstamp fc9dbbfd-8417-42c8-8767-21e671fc7766)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
+  (gr_text "DIGITAL" (at 160.655 110.49) (layer "User.1") (tstamp 2c7b1127-afd7-45c1-ab23-fb09444a1847)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "ANALOG" (at 160.655 105.41) (layer "User.1") (tstamp 405d5019-ee2a-48d5-95dc-dc8eb1128dbc)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
 
   (segment (start 131.445 136.265) (end 131.445 133.775) (width 0.381) (layer "F.Cu") (net 1) (tstamp 01e132e4-78aa-42d0-84a4-a7685abd2cdf))
   (segment (start 131.4636 133.7564) (end 131.495 133.725) (width 0.381) (layer "F.Cu") (net 1) (tstamp 045967b4-3f05-444d-a7ff-f0785b2fac49))
