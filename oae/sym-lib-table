@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "ade_oae")(type "KiCad")(uri "/Users/wsh32/projects/ade/oae_hardware/lib/ade_oae.kicad_sym")(options "")(descr ""))
+)
