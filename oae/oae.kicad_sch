@@ -78,14 +78,27 @@
     )
   )
 
+  (sheet (at 166.37 130.81) (size 31.75 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4)
+    (property "Sheet name" "ADC" (id 0) (at 166.37 130.0984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "adc.kicad_sch" (id 1) (at 166.37 142.8246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/4e5c0499-4917-48e7-9f4d-c201cc63ee81" (page "2"))
     (path "/d6a7f71a-4da6-4997-9a3d-af77c0308253" (page "3"))
-    (path "/9397f066-146e-4896-a893-48ef11276451/eb102f03-2731-4f1a-bee7-0755c9304ce3" (page "5"))
     (path "/9397f066-146e-4896-a893-48ef11276451" (page "4"))
     (path "/169c3de2-c7c8-4610-b91b-a9f8fbbda482" (page "6"))
+    (path "/9397f066-146e-4896-a893-48ef11276451/eb102f03-2731-4f1a-bee7-0755c9304ce3" (page "5"))
     (path "/03c7f4ef-720f-48a4-8072-c0223759fc16" (page "7"))
+    (path "/f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4" (page "8"))
   )
 
   (symbol_instances
@@ -320,6 +333,21 @@
     (path "/03c7f4ef-720f-48a4-8072-c0223759fc16/03e41ff9-fe34-486c-93a1-4075fafd57b4"
       (reference "#PWR0713") (unit 1) (value "GNDA") (footprint "")
     )
+    (path "/03c7f4ef-720f-48a4-8072-c0223759fc16/c1723b47-22e1-4439-b9af-ee8f232e14fc"
+      (reference "#PWR0714") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/03c7f4ef-720f-48a4-8072-c0223759fc16/c642c5ff-0697-44ca-af7b-ce3f57e11281"
+      (reference "#PWR0715") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/03c7f4ef-720f-48a4-8072-c0223759fc16/35806bee-5f0b-419e-80cf-50c376089579"
+      (reference "#PWR0716") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/03c7f4ef-720f-48a4-8072-c0223759fc16/1b38f85c-e4d1-47e6-8dd1-c25f984edf1c"
+      (reference "#PWR0717") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/03c7f4ef-720f-48a4-8072-c0223759fc16/429cf386-6f19-4b94-a118-f063a2db52d0"
+      (reference "#PWR0718") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/d6a7f71a-4da6-4997-9a3d-af77c0308253/e7f795b6-23c9-455f-8997-ba3a2d30c85b"
       (reference "C301") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -421,6 +449,12 @@
     )
     (path "/03c7f4ef-720f-48a4-8072-c0223759fc16/97503b38-c5fd-4d60-90a6-d67f4c311b69"
       (reference "C711") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/03c7f4ef-720f-48a4-8072-c0223759fc16/d90b794e-3baf-4d53-b7b4-7a4ab5e65547"
+      (reference "C712") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/03c7f4ef-720f-48a4-8072-c0223759fc16/1b4136af-d3bb-44d2-817a-f1ad34c5e018"
+      (reference "C713") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/9397f066-146e-4896-a893-48ef11276451/d45eb9e1-c98f-4aac-80ca-51163becf38f"
       (reference "D501") (unit 1) (value "DBG1") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -580,6 +614,9 @@
     )
     (path "/03c7f4ef-720f-48a4-8072-c0223759fc16/7ca72dd7-1287-4dfe-8c42-633a801f58e2"
       (reference "U702") (unit 3) (value "Bandpass") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm")
+    )
+    (path "/03c7f4ef-720f-48a4-8072-c0223759fc16/54b8bbff-a645-49f8-859c-5b0e994d1e58"
+      (reference "U703") (unit 1) (value "MCP3550-60-ESN") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm")
     )
     (path "/9397f066-146e-4896-a893-48ef11276451/e72891a3-ab12-4714-9962-8e94bf03c784"
       (reference "Y501") (unit 1) (value "8MHz") (footprint "Crystal:Crystal_SMD_HC49-SD_HandSoldering")

@@ -441,10 +441,6 @@
       "Power"
     ],
     [
-      "eb102f03-2731-4f1a-bee7-0755c9304ce3",
-      "Bypass Capacitors for Microcontroller"
-    ],
-    [
       "9397f066-146e-4896-a893-48ef11276451",
       "Microcontroller"
     ],
@@ -453,8 +449,16 @@
       "Speaker Amps"
     ],
     [
+      "eb102f03-2731-4f1a-bee7-0755c9304ce3",
+      "Bypass Capacitors for Microcontroller"
+    ],
+    [
       "03c7f4ef-720f-48a4-8072-c0223759fc16",
       "Microphone Filters and Amp"
+    ],
+    [
+      "f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4",
+      "ADC"
     ]
   ],
   "text_variables": {}
