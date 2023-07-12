@@ -1510,10 +1510,10 @@
   (symbol (lib_id "Device:R_Pack02_SIP") (at 100.33 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d081527-b489-485c-923f-cf810f5a4086)
-    (property "Reference" "RN1" (at 106.68 98.425 90)
+    (property "Reference" "RN702" (at 106.68 97.79 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10K" (at 106.68 100.965 90)
+    (property "Value" "10K" (at 106.68 100.33 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_Array_Convex_2x0603" (at 100.33 108.585 90)
@@ -1532,7 +1532,7 @@
     (instances
       (project "oae"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03c7f4ef-720f-48a4-8072-c0223759fc16"
-          (reference "RN1") (unit 1)
+          (reference "RN702") (unit 1)
         )
       )
     )
@@ -2095,7 +2095,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 63.5 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f63829d0-b0b2-43d7-81b4-a46e43292e9b)
-    (property "Reference" "#PWR?" (at 63.5 69.85 0)
+    (property "Reference" "#PWR0105" (at 63.5 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 67.31 0)
@@ -2111,7 +2111,7 @@
     (instances
       (project "oae"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03c7f4ef-720f-48a4-8072-c0223759fc16"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )

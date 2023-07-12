@@ -729,10 +729,10 @@
   (symbol (lib_id "Device:C_Small") (at 119.38 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81218e2c-b0aa-4897-b723-1874d7d892fa)
-    (property "Reference" "C12" (at 121.7041 81.6478 0)
+    (property "Reference" "C412" (at 121.92 81.2863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 121.7041 84.4229 0)
+    (property "Value" "100nF" (at 121.92 83.8263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 119.38 82.55 0)
@@ -746,7 +746,7 @@
     (instances
       (project "oae"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9397f066-146e-4896-a893-48ef11276451/eb102f03-2731-4f1a-bee7-0755c9304ce3"
-          (reference "C12") (unit 1)
+          (reference "C412") (unit 1)
         )
       )
     )

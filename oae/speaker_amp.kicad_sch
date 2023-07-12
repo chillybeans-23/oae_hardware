@@ -707,7 +707,7 @@
   (global_label "SPEAKER_A_SIG" (shape input) (at 74.93 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3b9e0c63-9e10-4212-ba94-a920c7b4e03f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 58.0026 82.4706 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 57.51 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -893,13 +893,13 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 88.9 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Device:C_Small") (at 88.9 144.78 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 6daf2a73-de11-47bd-b39d-1c1383efc178)
-    (property "Reference" "C603" (at 91.2241 143.8778 0)
+    (property "Reference" "C603" (at 86.5759 143.8778 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (at 91.2241 146.6529 0)
+    (property "Value" "10uF" (at 86.5759 146.6529 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 88.9 144.78 0)
@@ -1228,7 +1228,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 99.06 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd7fe3d0-be7e-42f8-b5a9-8495454dd775)
-    (property "Reference" "#PWR?" (at 99.06 163.83 0)
+    (property "Reference" "#PWR0103" (at 99.06 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 161.29 0)
@@ -1244,7 +1244,7 @@
     (instances
       (project "oae"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/169c3de2-c7c8-4610-b91b-a9f8fbbda482"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -1338,7 +1338,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 88.9 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7b67124-0192-4a14-89ff-38d0aaffa273)
-    (property "Reference" "#PWR?" (at 88.9 54.61 0)
+    (property "Reference" "#PWR0104" (at 88.9 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 52.07 0)
@@ -1354,7 +1354,7 @@
     (instances
       (project "oae"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/169c3de2-c7c8-4610-b91b-a9f8fbbda482"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )

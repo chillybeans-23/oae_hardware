@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.975
+          "height": 0.254,
+          "width": 0.6096
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -126,7 +126,7 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15239999999999998,
+        "min_track_width": 0.03,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
@@ -176,6 +176,7 @@
       ],
       "track_widths": [
         0.0,
+        0.005,
         0.01,
         0.0254,
         0.1524,
@@ -449,7 +450,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../oae.net",
+      "netlist": "oae.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
