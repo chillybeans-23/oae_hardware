@@ -109,6 +109,7 @@
   (pad "3" smd rect (at -1.4 0.25) (size 0.6096 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f76de2c6-bb64-445d-b15a-0b3c6c806289))
   (pad "4" smd rect (at -1.4 0.750001) (size 0.6096 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1a599929-3822-408e-aca0-011d4133e566))
   (pad "5" smd custom (at -1.504622 1.209487) (size 0.4064 0.1778) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly
@@ -128,6 +129,7 @@
   (pad "8" smd rect (at 0.25 1.4 90) (size 0.6096 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 57faeacb-a329-4f4f-aabe-1ed25396ca62))
   (pad "9" smd rect (at 0.750001 1.4 90) (size 0.6096 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 49a7e7cc-cc77-4eac-827b-9a3ab11c91bf))
   (pad "10" smd custom (at 1.5016 1.209482) (size 0.4064 0.1778) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly
@@ -147,6 +149,7 @@
   (pad "13" smd rect (at 1.4 -0.25) (size 0.6096 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0b63f578-18ee-4f04-ade5-298877b2718e))
   (pad "14" smd rect (at 1.4 -0.750001) (size 0.6096 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2017df3c-9bc0-4aaa-b92a-305bb255d7a0))
   (pad "15" smd custom (at 1.5016 -1.209487) (size 0.4064 0.1778) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly
@@ -166,6 +169,7 @@
   (pad "18" smd rect (at -0.25 -1.4 90) (size 0.6096 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3c98f93a-2d44-4d2d-9b9e-c80d4ccacecc))
   (pad "19" smd rect (at -0.750001 -1.4 90) (size 0.6096 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8fcac965-f1d1-4b2b-b26a-44bc2cc57e8d))
   (pad "20" smd custom (at -1.504622 -1.209487) (size 0.4064 0.1778) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly
@@ -181,4 +185,9 @@
         (width 0) (fill yes))
     ) (tstamp 39f1296b-7ce9-4f60-8544-c160c8c63bb4))
   (pad "21" smd rect (at 0 0) (size 1.4986 1.4986) (layers "F.Cu" "F.Mask") (tstamp f5534ab4-b2c8-4e21-803d-9f6c18f22f6d))
+  (model "${OAE}/lib/oae_step/RTE0020A.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
