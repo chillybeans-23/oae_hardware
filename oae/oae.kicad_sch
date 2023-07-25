@@ -11,7 +11,8 @@
     (company "Olin College of Engineering")
     (comment 1 "Affordable Design and Entrepreneurship")
     (comment 2 "Global Health")
-    (comment 3 "Designer: Wesley Soo-Hoo")
+    (comment 3 "Wesley Soo-Hoo")
+    (comment 4 "Designers: Venkadesh Eswaranandam, Kevin Lie-Atjam, Luke Nonas-Hunter,")
   )
 
   (lib_symbols
