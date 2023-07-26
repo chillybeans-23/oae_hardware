@@ -856,10 +856,6 @@
     (uuid fcac5ced-2656-4c90-886a-cc0b7fa787ce)
   )
 
-  (text "Change this to a 100nF film capacitor" (at 30.48 78.74 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0a611a56-fe0c-44b3-b465-66856d0beb08)
-  )
   (text "1+(100k/5k) = 21 Gain\nAmplifies a signal from amplitude 0.1V - 2.1V"
     (at 80.01 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1573,7 +1569,7 @@
     (property "Reference" "C703" (at 50.8 73.025 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "47uF" (at 50.8 74.93 90)
+    (property "Value" "1uF" (at 50.8 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 50.8 69.85 0)
