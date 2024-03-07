@@ -949,7 +949,7 @@
   (symbol (lib_id "ade_oae:ACAS_0606_AT") (at 100.33 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16b9fef0-409e-418c-bd1d-b180e993b0c5)
-    (property "Reference" "RN3" (at 106.68 98.425 90)
+    (property "Reference" "RN2" (at 106.68 98.425 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 106.68 100.965 90)
@@ -967,9 +967,6 @@
     (pin "4" (uuid ea80be3a-95e1-41ac-b3aa-fd5efbb570e3))
     (instances
       (project "oae"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/169c3de2-c7c8-4610-b91b-a9f8fbbda482"
-          (reference "RN3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03c7f4ef-720f-48a4-8072-c0223759fc16"
           (reference "RN2") (unit 1)
         )
@@ -1843,7 +1840,7 @@
   (symbol (lib_id "ade_oae:ACAS_0606_AT") (at 58.42 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3f21e86-5071-4008-a926-e75e004d7148)
-    (property "Reference" "RN3" (at 66.04 53.975 0)
+    (property "Reference" "RN1" (at 66.04 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 66.04 56.515 0)
@@ -1861,9 +1858,6 @@
     (pin "4" (uuid 10194378-7ef4-4e8a-8120-7b982b1fbe69))
     (instances
       (project "oae"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/169c3de2-c7c8-4610-b91b-a9f8fbbda482"
-          (reference "RN3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03c7f4ef-720f-48a4-8072-c0223759fc16"
           (reference "RN1") (unit 1)
         )

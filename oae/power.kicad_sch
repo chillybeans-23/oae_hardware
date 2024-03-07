@@ -738,7 +738,7 @@
   (symbol (lib_id "Device:R_Small") (at 147.32 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45243261-b714-4074-b315-163e1266e114)
-    (property "Reference" "R2" (at 147.32 82.55 90)
+    (property "Reference" "R301" (at 147.32 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 147.32 85.09 90)
@@ -754,9 +754,6 @@
     (pin "2" (uuid 79da1fec-ee50-40ec-9b12-0252020d8b93))
     (instances
       (project "oae"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4"
-          (reference "R2") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6a7f71a-4da6-4997-9a3d-af77c0308253"
           (reference "R301") (unit 1)
         )
