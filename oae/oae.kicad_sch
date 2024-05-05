@@ -104,6 +104,23 @@
     )
   )
 
+  (sheet (at 184.15 96.52) (size 29.21 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b24c07d9-5f65-452a-9dd7-7e73c57de884)
+    (property "Sheetname" "Charging2" (at 184.15 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 184.15 104.7246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oae"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "10"))
+      )
+    )
+  )
+
   (sheet (at 90.17 90.17) (size 25.4 11.43) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
