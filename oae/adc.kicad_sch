@@ -754,7 +754,7 @@
     (property "Value" "TLV320ADC3120IRTER" (at 127 69.85 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "footprints:WQFN20_RTE_TEX" (at 102.87 73.66 0)
+    (property "Footprint" "oae_mod:WQFN20_RTE_TEX" (at 102.87 73.66 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv320adc3120.pdf" (at 119.38 63.5 0)
