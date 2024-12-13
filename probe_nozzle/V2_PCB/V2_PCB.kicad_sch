@@ -3262,7 +3262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1_custom_library:46765-1001_MOL"
+		(property "Footprint" "1_custom_library:HDMI_Micro-D_Molex_46765-1x01"
 			(at 210.185 90.17 0)
 			(effects
 				(font
