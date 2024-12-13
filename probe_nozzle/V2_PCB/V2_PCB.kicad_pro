@@ -494,7 +494,7 @@
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "V2_PCB.step",
       "svg": "",
       "vrml": ""
     },
