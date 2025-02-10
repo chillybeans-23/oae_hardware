@@ -1,127 +1,251 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
-
-  (paper "A4")
-
-  (title_block
-    (title "OAE")
-    (date "2022-10-19")
-    (rev "0")
-    (company "Olin College of Engineering")
-    (comment 1 "Affordable Design and Entrepreneurship")
-    (comment 2 "Global Health")
-    (comment 3 "Wesley Soo-Hoo")
-    (comment 4 "Designers: Venkadesh Eswaranandam, Kevin Lie-Atjam, Luke Nonas-Hunter,")
-  )
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 128.27 109.22) (size 25.4 11.43) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 03c7f4ef-720f-48a4-8072-c0223759fc16)
-    (property "Sheetname" "Microphone Filters and Amp" (at 128.27 108.5084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "microphone_filter.kicad_sch" (at 128.27 121.2346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oae"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 128.27 90.17) (size 25.4 11.43) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 169c3de2-c7c8-4610-b91b-a9f8fbbda482)
-    (property "Sheetname" "Speaker Amps" (at 128.27 89.4584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "speaker_amp.kicad_sch" (at 128.27 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oae"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 90.17 71.12) (size 25.4 11.43) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4e5c0499-4917-48e7-9f4d-c201cc63ee81)
-    (property "Sheetname" "Interface" (at 90.17 70.4084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "interface.kicad_sch" (at 90.17 83.1346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oae"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 128.27 71.12) (size 25.4 11.43) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 9397f066-146e-4896-a893-48ef11276451)
-    (property "Sheetname" "Microcontroller" (at 128.27 70.4084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "microcontroller.kicad_sch" (at 128.27 83.1346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oae"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 90.17 90.17) (size 25.4 11.43) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d6a7f71a-4da6-4997-9a3d-af77c0308253)
-    (property "Sheetname" "Power" (at 90.17 89.4584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch" (at 90.17 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oae"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 166.37 130.81) (size 31.75 11.43) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4)
-    (property "Sheetname" "ADC" (at 166.37 130.0984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "adc.kicad_sch" (at 166.37 142.8246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oae"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "8"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "OAE")
+		(date "2022-10-19")
+		(rev "0")
+		(company "Olin College of Engineering")
+		(comment 1 "Affordable Design and Entrepreneurship")
+		(comment 2 "Global Health")
+		(comment 3 "Wesley Soo-Hoo")
+		(comment 4 "Designers: Venkadesh Eswaranandam, Kevin Lie-Atjam, Luke Nonas-Hunter,")
+	)
+	(lib_symbols)
+	(sheet
+		(at 128.27 109.22)
+		(size 25.4 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03c7f4ef-720f-48a4-8072-c0223759fc16")
+		(property "Sheetname" "Microphone Filters and Amp"
+			(at 128.27 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microphone_filter.kicad_sch"
+			(at 128.27 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oae"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 90.17)
+		(size 25.4 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "169c3de2-c7c8-4610-b91b-a9f8fbbda482")
+		(property "Sheetname" "Speaker Amps"
+			(at 128.27 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "speaker_amp.kicad_sch"
+			(at 128.27 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oae"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 71.12)
+		(size 25.4 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e5c0499-4917-48e7-9f4d-c201cc63ee81")
+		(property "Sheetname" "Interface"
+			(at 90.17 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interface.kicad_sch"
+			(at 90.17 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oae"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 71.12)
+		(size 25.4 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9397f066-146e-4896-a893-48ef11276451")
+		(property "Sheetname" "Microcontroller"
+			(at 128.27 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 128.27 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oae"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 90.17)
+		(size 25.4 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6a7f71a-4da6-4997-9a3d-af77c0308253")
+		(property "Sheetname" "Power"
+			(at 90.17 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 90.17 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oae"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 130.81)
+		(size 31.75 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4")
+		(property "Sheetname" "ADC"
+			(at 166.37 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 166.37 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oae"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
